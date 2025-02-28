@@ -1,0 +1,139 @@
+@font-face {
+	font-family: young Serif;
+	src: url(/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+	font-family: outfit;
+	src: url(/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: hsl(336, 82%, 94%);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	font-family: outfit;
+}
+
+#container {
+	width: 37.5rem;
+	margin: 40px 0;
+	background-color: hsl(0, 0%, 100%);
+	padding: 30px;
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 20px;
+}
+
+.hero-image img {
+	width: 100%;
+}
+
+h1 {
+	margin: 15px 0;
+	font-family: young serif;
+}
+
+p {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: hsl(332, 51%, 32%);
+}
+
+h2 {
+	color: hsl(14, 45%, 36%);
+	margin-top: 70px;
+	padding-bottom: 20px;
+}
+
+h2,
+h3 {
+	font-family: young serif;
+}
+
+span {
+	color: hsl(24, 5%, 18%);
+	font-weight: 800;
+	font-size: 20px;
+}
+
+hr {
+	background-color: hsl(30, 10%, 34%);
+}
+
+.background {
+	background-color: hsl(336, 82%, 94%);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 23px 0;
+}
+
+ol li {
+	margin: 15px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 20px;
+	border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+
+caption {
+	text-align: left;
+	padding: 5px 0;
+}
+
+.n-value {
+	color: hsl(14, 45%, 36%);
+	font-weight: 900;
+}
+
+.attribution {
+	font-size: 17px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media all and (max-width: 375px) {
+	#container {
+		width: 37.5rem;
+		margin: 0;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	.attribution {
+		font-size: 12px;
+	}
+}
